@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 MODEL = tf.keras.models.load_model(
-    '../saved_models/4')
+    '../models')
 
 CLASS_NAMES = ["Basal_Cell_Carcinnoma", "Melanoma", "Nevus"]
 
