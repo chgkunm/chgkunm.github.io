@@ -21,7 +21,7 @@ app.add_middleware(
 )
 
 MODEL = tf.keras.models.load_model(
-    '../models')
+    '/derma_model.hdf5')
 
 CLASS_NAMES = ["Basal_Cell_Carcinnoma", "Melanoma", "Nevus"]
 
